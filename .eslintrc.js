@@ -19,14 +19,27 @@ module.exports = {
     ecmaVersion: "latest",
     sourceType: "module",
   },
-  plugins: [
-    "react",
-    "@typescript-eslint",
-    "prettier",
-    "import",
-    "better-styled-components",
-  ],
+  plugins: ["react", "@typescript-eslint", "prettier", "import"],
   rules: {
+    "import/extensions": 0,
+    "import/order": [
+      "error",
+      {
+        groups: ["builtin", "external", ["parent", "sibling"], "index"],
+        pathGroups: [
+          {
+            pattern: "react",
+            group: "external",
+            position: "before",
+          },
+        ],
+        alphabetize: {
+          order: "asc",
+          caseInsensitive: true,
+        },
+        "newlines-between": "always",
+      },
+    ],
     "react/jsx-filename-extension": [2, { extensions: [".ts", ".tsx"] }],
   },
 };
