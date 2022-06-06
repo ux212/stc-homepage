@@ -1,11 +1,15 @@
-# Next.js + Typescript + Yarn Berry + ESLint Boilerplate
+# Seoul Tiger Capital Homepage
 
 ## 개요
 
-이 보일러플레이트는 Next.js (w. TS)와 yarn2, ESLint 설정이 적용되어 있어
-보다 빠른 기초 세팅이 가능합니다.
+서울 타이거 캐피탈 리뉴 페이지 프로젝트입니다.
 
-## 부가 적용된 패키지
+## 유의사항
 
-- HTTP 통신: [axios](https://axios-http.com/)
-- 스타일링: [tailwindcss](https://tailwindcss.com/) + [Styled-Components](https://styled-components.com/)
+- 편의성을 위해 기존에 개인적으로 사용하던 템플릿, 기능을 조합해 급조한 페이지입니다. 이 점 유의하여 확인하시면 감사하겠습니다.
+- yarn berry가 프로젝트에 세팅되어 있습니다. 유의바랍니다.
+- 사용된 스택 중 [tailwindcss](https://tailwindcss.com/)가 있습니다. 퍼블리싱 하실 때 해당 부분 빌드하여 퍼블리싱하는 것을 권장드립니다.
+
+## 기타
+
+추가로 확인이 필요한 사안은 수겸님 또는 카톡 dimi_lee로 연락바랍니다.
