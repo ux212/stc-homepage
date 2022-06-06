@@ -40,6 +40,7 @@ module.exports = {
         "newlines-between": "always",
       },
     ],
+    "import/prefer-default-export": 0,
     "react/jsx-filename-extension": [2, { extensions: [".ts", ".tsx"] }],
   },
 };
