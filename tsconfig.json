@@ -21,6 +21,12 @@
     },
     "module": "esnext"
   },
-  "include": ["next-env.d.ts", "**/*.**.ts", "**/*.**.tsx", "**/*.tsx"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.**.ts",
+    "**/*.**.tsx",
+    "**/*.tsx",
+    "src/components/hero/index.ts"
+  ],
   "exclude": ["node_modules"]
 }

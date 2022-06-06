@@ -2713,6 +2713,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"core-js@npm:^3.22.8":
+  version: 3.22.8
+  resolution: "core-js@npm:3.22.8"
+  checksum: c79bcfea37920a5da880ad1fc8336355e833c83998bb28cd45cc59eef4d9824dd8d59ccd24d6b18ff88f284d53d9eef021ddbd2b5ab1c6305b01e98c1402e510
+  languageName: node
+  linkType: hard
+
 "core-util-is@npm:~1.0.0":
   version: 1.0.3
   resolution: "core-util-is@npm:1.0.3"
@@ -6117,6 +6124,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": ^5.27.0
     "@typescript-eslint/parser": ^5.27.0
     autoprefixer: ^10.4.7
+    core-js: ^3.22.8
     cssnano: ^5.1.10
     eslint: ^8.16.0
     eslint-config-airbnb: ^19.0.4

@@ -1,9 +1,10 @@
 /* eslint-disable react/jsx-props-no-spreading */
+import { MobileContextProvider } from "@src/lib/contexts";
 import type { AppProps } from "next/app";
 import Head from "next/head";
 
 import "tailwindcss/tailwind.css";
-import "@src/styles/global.css";
+import "@src/lib/styles/global.css";
 
 function Metatag() {
   return (
@@ -31,9 +32,9 @@ function Metatag() {
 }
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <>
+    <MobileContextProvider>
       <Metatag />
       <Component {...pageProps} />
-    </>
+    </MobileContextProvider>
   );
 }
