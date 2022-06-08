@@ -7,7 +7,7 @@ export function TypoComponent() {
 
   return (
     <div className="flex flex-col items-center pt-72" id="typo">
-      <div className="max-w-[1302px] h-[82px] lg:h-[333px] mb-28">
+      <div className="max-w-[1302px] h-[82px] lg:h-[333px] mb-40 lg:mb-16">
         <Lottie animationData={typoLottie} loop={false} />
       </div>
       <p className="text-[0.875rem] lg:text-[1.375rem] font-medium leading-4 lg:leading-[1.625rem] text-center">

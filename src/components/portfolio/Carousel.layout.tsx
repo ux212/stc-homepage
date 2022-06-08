@@ -3,12 +3,10 @@
 import { useEffect, useRef } from "react";
 
 import { portfolio } from "@public/assets/json/portpolio";
-import { useMobileContext } from "@src/lib/contexts";
-import Image from "next/image";
+import Image from "@src/lib/Image.lib";
 
 export function CarouselLayout() {
   const carouselRef = useRef<HTMLDivElement>(null);
-  const isMobile = useMobileContext();
 
   useEffect(() => {
     carouselRef.current!.animate(
@@ -35,13 +33,13 @@ export function CarouselLayout() {
       >
         {[...portfolio, ...portfolio].map((val, idx) => (
           <div
-            className="relative lg:static w-20 lg:w-auto h-10 lg:h-auto shrink-0"
+            className="relative lg:w-60 w-20 h-10 lg:h-60 shrink-0"
             key={idx.toString()}
           >
             <Image
               src={val}
               alt={idx.toString()}
-              layout={isMobile ? "fill" : "intrinsic"}
+              layout="fill"
               objectFit="contain"
             />
           </div>

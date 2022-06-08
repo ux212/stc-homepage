@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
     "start": "next start"
   },
   "dependencies": {
@@ -12,8 +13,7 @@
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "react-page-scroller": "^2.2.1",
-    "sharp": "latest"
+    "react-page-scroller": "^2.2.1"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^12.1.6",
@@ -23,7 +23,6 @@
     "@types/prettier": "^2.6.3",
     "@types/react": "latest",
     "@types/react-dom": "latest",
-    "@types/sharp": "^0.30.2",
     "@typescript-eslint/eslint-plugin": "^5.27.0",
     "@typescript-eslint/parser": "^5.27.0",
     "autoprefixer": "^10.4.7",

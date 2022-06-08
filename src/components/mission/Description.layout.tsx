@@ -1,7 +1,8 @@
 import { ReactNode } from "react";
 
 import { useMobileContext } from "@src/lib/contexts";
-import Image, { StaticImageData } from "next/image";
+import Image from "@src/lib/Image.lib";
+import { StaticImageData } from "next/image";
 
 export function DescriptionLayout({
   title,
@@ -27,7 +28,13 @@ export function DescriptionLayout({
             className="border-l-black flex items-end border-l-2 pl-2 lg:pl-7"
             style={{ height: `${lineHeight}vh` }}
           >
-            <Image loading="lazy" src={img} alt={title} />
+            <Image
+              loading="lazy"
+              src={img}
+              width={678}
+              height={518}
+              alt={title}
+            />
           </div>
         </div>
         <div className="text-[0.875rem] lg:text-[1.375rem] font-medium leading-4 lg:leading-[1.625rem] text-center">

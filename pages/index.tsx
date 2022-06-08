@@ -38,7 +38,7 @@ export default function IndexPage() {
         <DescriptionLayout
           title={mission[1].title}
           img={mission[1].img}
-          lineHeight={isMobile ? 105 : 120}
+          lineHeight={isMobile ? 105 : 110}
         >
           {mission[1].description}
         </DescriptionLayout>
