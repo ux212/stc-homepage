@@ -12,7 +12,7 @@ export function SummaryComponent() {
         <i>Our</i> Mission
       </p>
       <p className="text-[0.875rem] lg:text-[1.375rem] font-medium leading-4 lg:leading-[1.625rem] text-center">
-        Our Mission Is to search for the
+        Our Mission is to search for the
         {isMobile ? <br /> : " "}
         future blockchain unicorns
         {isMobile ? " " : <br />}
@@ -24,7 +24,7 @@ export function SummaryComponent() {
         {isMobile ? " " : <br />}
         investment,
         {isMobile ? <br /> : " "}
-        industry knoweldge and advisory.
+        industry know and advisory.
       </p>
     </div>
   );

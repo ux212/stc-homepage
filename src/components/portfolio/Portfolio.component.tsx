@@ -12,7 +12,7 @@ export function PortfolioSection() {
         The <i>Portfolio</i>
       </p>
       <p className="text-[0.875rem] lg:text-[1.375rem] font-medium leading-4 lg:leading-[1.625rem] text-center">
-        We are a thesis-driven global asset
+        We are a the sis-driven global asset
         {isMobile ? <br /> : " "}
         management firm dedicated
         <br />

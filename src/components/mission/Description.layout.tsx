@@ -29,7 +29,7 @@ export function DescriptionLayout({
             style={{ height: `${lineHeight}vh` }}
           >
             <Image
-              loading="lazy"
+              loading="eager"
               src={img}
               width={678}
               height={518}

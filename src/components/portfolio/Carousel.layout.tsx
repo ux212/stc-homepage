@@ -37,6 +37,7 @@ export function CarouselLayout() {
             key={idx.toString()}
           >
             <Image
+              loading="eager"
               src={val}
               alt={idx.toString()}
               layout="fill"

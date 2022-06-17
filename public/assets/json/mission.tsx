@@ -25,11 +25,11 @@ export const mission = [
     img: incubatingImg,
     description: (
       <p>
-        We help compaines to build their
+        We help companies to build their
         <br />
-        Business models and develop their
+        business models and develop their
         <br />
-        ecosystem by providing a full scale
+        ecosystems by providing a full scale
         <br />
         range of services.
       </p>
